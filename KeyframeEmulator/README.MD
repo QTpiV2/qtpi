@@ -17,7 +17,7 @@ A library designed to emulate keyframe animations, in a scenario where you can't
 In order to serialize KeyframeSequences, you must install a plugin.
 
 ### How do I install it?
-1. Download the RBXM file of the plugin from [here](https://github.com/QTpiV2/qtpi/KeyframeEmulator/plugin/plugin.rbxm).
+1. Download the RBXM file of the plugin from [here](https://github.com/QTpiV2/qtpi/blob/main/KeyframeEmulator/plugin/plugin.rbxm?raw=true).
 2. Open a Roblox Studio empty baseplate (or anywhere), and right click on "Workspace" in your Explorer Window.
 3. Select "Insert from file..." and insert the RBXM file you just downloaded.
 4. Right click on the newly inserted Script, and select "Save as local plugin..."
@@ -30,4 +30,4 @@ In order to serialize KeyframeSequences, you must install a plugin.
 
 **Note that ModuleScripts generated from KeyframeEmulator cannot be exchanged back into a KeyframeSequence, so store your animations appropriately.**
 
-Because people are paranoid, and don't trust me with these kinds of things, the source for said plugin is directly available [here](https://github.com/QTpiV2/qtpi/KeyframeEmulator/plugin/source.lua).
+Because people are paranoid, and don't trust me with these kinds of things, the source for said plugin is directly available [here](https://github.com/QTpiV2/qtpi/blob/main/KeyframeEmulator/plugin/source.lua).
