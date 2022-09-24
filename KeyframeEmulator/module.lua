@@ -15,7 +15,7 @@ local OriginalJoints = {}
 local JointsToMap = {
     -- NOTE: THIS ONLY SUPPORTS R15. FEEL FREE TO SEND IN A PR THAT ADDS THE R15 JOINT LIST. I WAS TOO LAZY.
 	[Enum.HumanoidRigType.R6] = {
-		["Torso"] = "Root Hip",
+		["Torso"] = "RootJoint",
 		["Head"] = "Neck",
 		["Left Arm"] = "Left Shoulder",
 		["Right Arm"] = "Right Shoulder",
