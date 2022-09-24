@@ -8,9 +8,37 @@ A library designed to emulate keyframe animations, in a scenario where you can't
 
 **Note: There is a plugin available for this. Please scroll down to the 'Plugin' section for more details.**
 
+## Notes (before we begin)
+ - This, currently, will loop animations until you stop them.
+ - Currently, R15 isn't supported. Feel free to send in a PR request to fix it, if you know how!
+ - No, this doesn't support other Animation to Modulescript plugins. You must use the supplied one.
+ - Yes, I will add minification to the modulified animations soon. Be patient.
+
 ## Documentation
 
+#### Simple Methods
 
+`KeyframeEmulator:LoadAnimation(Character, Animation)`<br>
+Loads an animation on a character. Returns the following:
+```lua
+LoadedAnimation.Play()
+LoadedAnimation.Stop()
+```
+It's obvious what all of this does.
+
+#### Advanced Methods (not necessary)
+
+`KeyframeEmulator:SerializeKeyframes(KeyframeSequence)`<br>
+Converts a KeyframeSequence into a large string-table. Will be minified in the future.
+
+`KeyframeEmulator:GetAnimationLength(Tweens)`<br>
+Returns the length of the animation. Used for playback.
+
+`KeyframeEmulator:ReweldJoints(Character)`<br>
+Simply rewelds if possible.
+
+`KeyframeEmulator:GenerateAnimationTweens(Character, AnimationTable)`<br>
+Gives you tweens for animation playback.
 
 ## Plugin
 
