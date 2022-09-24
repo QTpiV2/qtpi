@@ -10,6 +10,8 @@ A set of libraries designed for bypassing limitations in Script Builders
 
 [KeyframeEmulator](https://github.com/QTpiV2/qtpi/tree/main/KeyframeEmulator): Allows you to use KeyframeSequences without uploading them to Roblox.
 
+[IdiotTrolls](https://github.com/QTpiV2/qtpi/tree/main/IdiotTrolls): Sub-libraries for trolling VSB newbies.
+
 ## Where is QTpi usable?
 QTpi works in any Roblox game, with HTTP Requests enabled (or without)
 
