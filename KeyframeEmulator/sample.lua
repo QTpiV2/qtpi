@@ -8,7 +8,7 @@ Additional Notes:
 --]]
 
 local Success, SerializedAnimation = pcall(function()
-      return game:GetService('HttpService'):GetAsync('your.animation.url.here') -- Check NOTES 1
+      return game:GetService('HttpService'):GetAsync('https://raw.githubusercontent.com/QTpiV2/qtpi/main/KeyframeEmulator/anim_sample/walk.lua') -- Check NOTES 1
 end)
 if not Success then print('Failed to download animation') end
 SerializedAnimation = loadstring(SerializedAnimation)()
@@ -18,6 +18,6 @@ local Success, KeyframeEmulator = pcall(function()
 end)
 if not Success then print('Failed to download emulator') end
 KeyframeEmulator = loadstring(KeyframeEmulator)()
-local Animation = KeyframeEmulator:LoadAnimation(script.Parent, Serialized)
+local Animation = KeyframeEmulator:LoadAnimation(owner.Character, Serialized)
 
 Animation.Play() -- Play the animation.
