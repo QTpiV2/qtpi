@@ -18,6 +18,6 @@ local Success, KeyframeEmulator = pcall(function()
 end)
 if not Success then print('Failed to download emulator') end
 KeyframeEmulator = loadstring(KeyframeEmulator)()
-local Animation = KeyframeEmulator:LoadAnimation(owner.Character, Serialized)
+local Animation = KeyframeEmulator:LoadAnimation(owner.Character, SerializedAnimation)
 
 Animation.Play() -- Play the animation.
